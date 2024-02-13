@@ -1,22 +1,16 @@
-import logo from './logo.svg';
+import logo from './logo_white.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <div className="AppBg"></div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          The future of film distribution is coming soon.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>Contact andrew@ajr.digital for more details.</p>
       </header>
     </div>
   );
